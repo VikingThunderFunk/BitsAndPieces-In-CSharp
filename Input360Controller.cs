@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Input360Controller : MonoBehaviour {
-	// Update is called once per frame
+	//fixed update is used instead of update here
 	void FixedUpdate () {
 		leftStick();
 		rightStick();
